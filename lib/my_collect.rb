@@ -8,4 +8,4 @@ def my_collect(collection)
 new_collection
 end
 
-my_collect(collection) do { |name| new_collection << name.split(" ").first}
+my_collect(collection) { |name| new_collection << name.split(" ").first}
