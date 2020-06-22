@@ -7,5 +7,5 @@ def my_collect(collection)
   end
 new_collection
 end
-  
+
 my_collect(collection) do { |name| new_collection << name.split(" ").first}
